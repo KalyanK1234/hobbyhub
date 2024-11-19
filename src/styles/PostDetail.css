@@ -1,0 +1,51 @@
+.post-detail {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .post-detail img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  .edit-container {
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .edit-container input,
+  .edit-container textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .edit-container button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-container button:last-child {
+    background-color: #f44336;
+  }
+  
